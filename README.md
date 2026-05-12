@@ -10,24 +10,33 @@ The project demonstrates modern analytics engineering workflows including cloud-
 
 ## 🏗️ Project Architecture
 
+```text
 Kaggle CSV Dataset
-↓
+   |
+   v
 Amazon S3 Bucket
-↓
+   |
+   v
 Snowflake Storage Integration
-↓
+   |
+   v
 Snowflake External Stage
-↓
+   |
+   v
 Raw Data Layer
-↓
+   |
+   v
 Clean Transformation Layer
-↓
+   |
+   v
 Analytics Views
-↓
+   |
+   v
 KPI Queries
-↓
+   |
+   v
 Power BI Dashboard
-
+```
 ---
 
 ## 🛠️ Tools & Technologies Used
